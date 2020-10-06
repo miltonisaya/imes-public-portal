@@ -51,9 +51,11 @@ class MessagesItem extends Component {
     };
 
     async componentDidMount() {
-        const uiLocale = await this.context.d2.currentUser.userSettings.get(
-            'keyUiLocale'
-        );
+        // const uiLocale = await this.context.d2.currentUser.userSettings.get(
+        //     'keyUiLocale'
+        // );
+
+        const uiLocale = 'en';
 
         this.setState({ uiLocale });
     }

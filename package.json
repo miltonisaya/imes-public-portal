@@ -5,6 +5,7 @@
     "private": true,
     "license": "BSD-3-Clause",
     "dependencies": {
+        "@babel/helper-validator-identifier": "^7.10.4",
         "@dhis2/d2-i18n": "^1.0.4",
         "@dhis2/d2-ui-analytics": "^1.0.5",
         "@dhis2/d2-ui-core": "^6.0.1",
@@ -36,7 +37,8 @@
         "reselect": "^4.0.0",
         "source-map-explorer": "^1.7.0",
         "typeface-roboto": "^0.0.54",
-        "whatwg-fetch": "^3.0.0"
+        "whatwg-fetch": "^3.0.0",
+        "yarn": "^1.22.10"
     },
     "scripts": {
         "analyze": "source-map-explorer 'build/static/js/*.js'",
