@@ -31,5 +31,5 @@ manifest.webapp
 
 # generated localization files
 src/locales/
-.env
+.env.development
 readme-old.md
