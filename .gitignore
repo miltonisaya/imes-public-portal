@@ -26,10 +26,10 @@ yarn-error.log*
 
 manifest.webapp
 
-#maven
-/target
 
 # generated localization files
 src/locales/
 .env.development
+.env
 readme-old.md
+/config

@@ -1,5 +1,6 @@
 {
     "name": "dashboard-app",
+    "homepage": "http://www.imesportal.local",
     "version": "31.0.1",
     "description": "IMES Public Dashboard",
     "private": true,
@@ -21,7 +22,6 @@
         "@material-ui/icons": "^3.0.2",
         "d2": "^31.6.0",
         "d2-utilizr": "^0.2.16",
-        "env-cmd": "^10.1.0",
         "i18next": "^15.0.6",
         "lodash": "^4.17.11",
         "material-design-icons": "^3.0.1",
@@ -48,7 +48,7 @@
         "lint": "eslint -c .eslintrc.json src",
         "coverage": "npm test -- --coverage",
         "prebuild": "rm -rf build && mkdir build && npm run manifest && npm run localize",
-        "build": "PUBLIC_URL=. react-scripts build",
+        "build": "react-scripts build --dev",
         "build-netlify": "BASE_URL=\"https://play.dhis2.org/dev\" npm run build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
